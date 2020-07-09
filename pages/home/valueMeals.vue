@@ -549,11 +549,11 @@
 					},
 				// 开始时间
 				getFromData(startTime) {
-					this.gInfoNew.startTime = startTime;
+					this.gInfoNew.startTime = startTime-28800;
 				},
 				// 结束时间
 				getToData(endTime) {
-					this.gInfoNew.expireTime = endTime;
+					this.gInfoNew.expireTime = endTime+57599;
 				},
 				numberLimit(e) {
 					// 正则匹配正整数
